@@ -1,0 +1,41 @@
+
+=> Atenção: precisamos ter instalado o Python versão superior ao 3.5:
+brew install python@3.9
+
+
+==> Fazendo do diretório das Aulas 5 e 6 o corrente
+cd '/Users/macbook/Documents/Infnet/Bloco Big Data Analytics e ML/Aulas/Aulas 05 e 06'
+
+Abro o visual studio na pasta de onde estão os arquivos, com o git bash, com isso esse já abre o diretório e não precisa mudá-lo.
+
+
+
+=> Para criar o ambiente virtual no diretório local:
+/usr/local/opt/python@3.9/bin/python3.9 -m venv venv
+
+no windows: python -m venv nome_ambiente
+			python -m venv venv
+
+
+=> Ativando o ambiente
+source venv/bin/activate
+
+no windows: nome_ambiente/Scripts/activate
+			venv/Scripts/activate
+			
+=>Instalando o Kernel
+"D:\Documentos\MIT - Big Data\Fundamentos em Machine Learning e Modelos Não Supervisionados\Trabalho\Dados\Health and Sleep relation 2024\TrabalhoFundamentosML.ipynb" -m pip install ipykernel -U --force-reinstall
+ 
+=> Conferindo:
+python3 --version
+
+no windows: python --version
+
+=> Atualizando o pip
+python.exe -m pip install --upgrade pip
+
+=> Retirar locale do requirements.txt pois ela já previamente instalada no python
+
+=> Instalando pacotes
+pip3 install -r requirements.txt
+

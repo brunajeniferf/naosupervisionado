@@ -1,0 +1,10 @@
+matplotlib
+numpy
+openpyxl
+pandas
+pillow
+plotly
+seaborn
+wordcloud
+scikit-learn
+kneed
